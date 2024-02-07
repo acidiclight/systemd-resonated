@@ -1,0 +1,12 @@
+#!/bin/bash
+
+while [ true ];
+do
+	day=$(date +%j)
+	if [ "$day" -eq '47' ];
+	then
+		mpg123 /usr/share/resonate/beachworld.mp3
+	else
+		sleep 1000
+	fi
+done

@@ -1,0 +1,9 @@
+[Unit]
+Description=steppin on the beach, do-do-do-doo!
+
+[Service]
+ExecStart=resonate
+Type=simple
+
+[Install]
+WantedBy=default.target
